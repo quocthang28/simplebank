@@ -19,3 +19,6 @@ sqlc_gen:
 
 test:
 	go test -v -cover ./...
+
+git:
+	git add . && git commit -m"." && git push origin master
